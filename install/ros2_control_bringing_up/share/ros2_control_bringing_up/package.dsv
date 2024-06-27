@@ -1,0 +1,6 @@
+source;share/ros2_control_bringing_up/hook/pythonpath.ps1
+source;share/ros2_control_bringing_up/hook/pythonpath.dsv
+source;share/ros2_control_bringing_up/hook/pythonpath.sh
+source;share/ros2_control_bringing_up/hook/ament_prefix_path.ps1
+source;share/ros2_control_bringing_up/hook/ament_prefix_path.dsv
+source;share/ros2_control_bringing_up/hook/ament_prefix_path.sh

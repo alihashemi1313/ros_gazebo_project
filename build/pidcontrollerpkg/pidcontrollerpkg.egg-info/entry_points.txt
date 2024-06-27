@@ -1,0 +1,7 @@
+[console_scripts]
+pidinv = pidcontrollerpkg.PID_controller_Inv:main
+pidnode1 = pidcontrollerpkg.set_Tourqe_AN:main
+pidnode2 = pidcontrollerpkg.PidOptAll_V6:main
+pidnode3 = pidcontrollerpkg.PID_controller_2:main
+settorque = pidcontrollerpkg.set_Tourqe:main
+

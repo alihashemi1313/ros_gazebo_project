@@ -1,0 +1,5 @@
+  File "/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/python3.10/site-packages/ros2_control_bringup/ball_spawn.py", line 5
+    from ignition.
+                  ^
+SyntaxError: invalid syntax
+

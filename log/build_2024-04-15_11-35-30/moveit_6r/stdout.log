@@ -1,0 +1,42 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aliha1313/FUM6R-WS/build/moveit_6r
+-- Install configuration: ""
+-- Installing: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/ament_index/resource_index/package_run_dependencies/moveit_6r
+-- Installing: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/ament_index/resource_index/parent_prefix_path/moveit_6r
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/environment/ament_prefix_path.sh
+-- Installing: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/environment/path.sh
+-- Installing: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/environment/path.dsv
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/local_setup.bash
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/local_setup.sh
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/local_setup.zsh
+-- Installing: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/local_setup.dsv
+-- Installing: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/package.dsv
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/ament_index/resource_index/packages/moveit_6r
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/cmake/moveit_6rConfig.cmake
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/cmake/moveit_6rConfig-version.cmake
+-- Installing: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/package.xml
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/static_virtual_joint_tfs.launch.py
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/demo.launch.py
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/setup_assistant.launch.py
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/spawn_controllers.launch.py
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/moveit_rviz.launch.py
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/warehouse_db.launch.py
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/move_group.launch.py
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/rsp.launch.py
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/moveit_controllers.yaml
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/ros2_controllers.yaml
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/pilz_cartesian_limits.yaml
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/joint_limits.yaml
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/fum6r_new_corsys.urdf.xacro
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/moveit.rviz
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/fum6r_new_corsys.ros2_control.xacro
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/initial_positions.yaml
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/fum6r_new_corsys.srdf
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/kinematics.yaml
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/sensors_3d.yaml
+-- Installing: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/.setup_assistant

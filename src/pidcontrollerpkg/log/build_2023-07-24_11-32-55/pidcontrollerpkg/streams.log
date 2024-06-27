@@ -1,0 +1,28 @@
+[1.009s] Invoking command in '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg': PYTHONPATH=/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/prefix_override:/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/pidcontrollerpkg build --build-base /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build install --record /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/install.log --install-scripts $base/lib/pidcontrollerpkg --single-version-externally-managed
+[1.334s] running egg_info
+[1.335s] writing build/pidcontrollerpkg/pidcontrollerpkg.egg-info/PKG-INFO
+[1.336s] writing dependency_links to build/pidcontrollerpkg/pidcontrollerpkg.egg-info/dependency_links.txt
+[1.336s] writing entry points to build/pidcontrollerpkg/pidcontrollerpkg.egg-info/entry_points.txt
+[1.336s] writing requirements to build/pidcontrollerpkg/pidcontrollerpkg.egg-info/requires.txt
+[1.336s] writing top-level names to build/pidcontrollerpkg/pidcontrollerpkg.egg-info/top_level.txt
+[1.388s] reading manifest file 'build/pidcontrollerpkg/pidcontrollerpkg.egg-info/SOURCES.txt'
+[1.389s] writing manifest file 'build/pidcontrollerpkg/pidcontrollerpkg.egg-info/SOURCES.txt'
+[1.389s] running build
+[1.390s] running build_py
+[1.391s] copying pidcontrollerpkg/set_Tourqe.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg
+[1.391s] running install
+[1.392s] running install_lib
+[1.394s] copying /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg/set_Tourqe.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg
+[1.395s] byte-compiling /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg/set_Tourqe.py to set_Tourqe.cpython-38.pyc
+[1.399s] running install_data
+[1.399s] running install_egg_info
+[1.401s] removing '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.402s] Copying build/pidcontrollerpkg/pidcontrollerpkg.egg-info to /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg-0.0.0-py3.8.egg-info
+[1.404s] running install_scripts
+[1.432s] Installing pidinv script to /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/pidcontrollerpkg
+[1.433s] Installing pidnode1 script to /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/pidcontrollerpkg
+[1.433s] Installing pidnode2 script to /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/pidcontrollerpkg
+[1.433s] Installing pidnode3 script to /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/pidcontrollerpkg
+[1.433s] Installing settorque script to /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/pidcontrollerpkg
+[1.434s] writing list of installed files to '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/install.log'
+[1.475s] Invoked command in '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg' returned '0': PYTHONPATH=/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/prefix_override:/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/pidcontrollerpkg build --build-base /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build install --record /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/install.log --install-scripts $base/lib/pidcontrollerpkg --single-version-externally-managed

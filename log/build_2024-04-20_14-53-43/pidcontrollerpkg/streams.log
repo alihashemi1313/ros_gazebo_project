@@ -1,0 +1,25 @@
+[1.246s] Invoking command in '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg': PYTHONPATH=/home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/prefix_override:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pidcontrollerpkg build --build-base /home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/build install --record /home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/install.log --single-version-externally-managed install_data
+[1.556s] running egg_info
+[1.557s] writing ../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info/PKG-INFO
+[1.557s] writing dependency_links to ../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info/dependency_links.txt
+[1.557s] writing entry points to ../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info/entry_points.txt
+[1.558s] writing requirements to ../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info/requires.txt
+[1.558s] writing top-level names to ../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info/top_level.txt
+[1.560s] reading manifest file '../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info/SOURCES.txt'
+[1.561s] writing manifest file '../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info/SOURCES.txt'
+[1.561s] running build
+[1.562s] running build_py
+[1.563s] running install
+[1.564s] running install_lib
+[1.566s] running install_data
+[1.566s] running install_egg_info
+[1.568s] removing '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages/pidcontrollerpkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.568s] Copying ../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info to /home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages/pidcontrollerpkg-0.0.0-py3.10.egg-info
+[1.569s] running install_scripts
+[1.595s] Installing pidinv script to /home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/pidcontrollerpkg
+[1.595s] Installing pidnode1 script to /home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/pidcontrollerpkg
+[1.595s] Installing pidnode2 script to /home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/pidcontrollerpkg
+[1.595s] Installing pidnode3 script to /home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/pidcontrollerpkg
+[1.595s] Installing settorque script to /home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/pidcontrollerpkg
+[1.596s] writing list of installed files to '/home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/install.log'
+[1.624s] Invoked command in '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg' returned '0': PYTHONPATH=/home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/prefix_override:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pidcontrollerpkg build --build-base /home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/build install --record /home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: ros2_control_bringup
+    relative_path: urdf/fum6r.urdf
+  srdf:
+    relative_path: config/fum6r_new_corsys.srdf
+  package_settings:
+    author_name: ali hashemi
+    author_email: alihashemi1313@gmail.com
+    generated_timestamp: 1713637732
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+      - effort
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+      - effort

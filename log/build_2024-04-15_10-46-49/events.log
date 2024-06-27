@@ -1,0 +1,282 @@
+[0.000000] (-) TimerEvent: {}
+[0.000136] (motion_planning) JobQueued: {'identifier': 'motion_planning', 'dependencies': OrderedDict()}
+[0.000174] (moveit_6r) JobQueued: {'identifier': 'moveit_6r', 'dependencies': OrderedDict()}
+[0.000201] (pidcontrollerpkg) JobQueued: {'identifier': 'pidcontrollerpkg', 'dependencies': OrderedDict()}
+[0.000223] (ros2_control_bringup) JobQueued: {'identifier': 'ros2_control_bringup', 'dependencies': OrderedDict()}
+[0.000245] (motion_planning) JobStarted: {'identifier': 'motion_planning'}
+[0.007917] (moveit_6r) JobStarted: {'identifier': 'moveit_6r'}
+[0.013098] (pidcontrollerpkg) JobStarted: {'identifier': 'pidcontrollerpkg'}
+[0.019913] (ros2_control_bringup) JobStarted: {'identifier': 'ros2_control_bringup'}
+[0.027244] (motion_planning) JobProgress: {'identifier': 'motion_planning', 'progress': 'cmake'}
+[0.028170] (motion_planning) JobProgress: {'identifier': 'motion_planning', 'progress': 'build'}
+[0.029376] (motion_planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aliha1313/FUM6R-WS/build/motion_planning', '--', '-j12', '-l12'], 'cwd': '/home/aliha1313/FUM6R-WS/build/motion_planning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aliha1313'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aliha1313'), ('OLDPWD', '/home/aliha1313'), ('DESKTOP_SESSION', 'pop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('SYSTEMD_EXEC_PID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/aliha1313/pymoveit2/install:/home/aliha1313/FUM6R-WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aliha1313'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aliha1313'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/aliha1313/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/1524,unix/pop-os:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a7a5b44_a720_40e1_9321_8a9dca413af7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp:/home/aliha1313/pymoveit2/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aliha1313/FUM6R-WS/build/motion_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/aliha1313/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages:/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp/lib/python3.10/site-packages:/home/aliha1313/pymoveit2/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/pymoveit2/install:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp:/opt/ros/humble')]), 'shell': False}
+[0.032150] (moveit_6r) JobProgress: {'identifier': 'moveit_6r', 'progress': 'cmake'}
+[0.032596] (moveit_6r) JobProgress: {'identifier': 'moveit_6r', 'progress': 'build'}
+[0.033089] (moveit_6r) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aliha1313/FUM6R-WS/build/moveit_6r', '--', '-j12', '-l12'], 'cwd': '/home/aliha1313/FUM6R-WS/build/moveit_6r', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aliha1313'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aliha1313'), ('OLDPWD', '/home/aliha1313'), ('DESKTOP_SESSION', 'pop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('SYSTEMD_EXEC_PID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/aliha1313/pymoveit2/install:/home/aliha1313/FUM6R-WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aliha1313'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aliha1313'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/aliha1313/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/1524,unix/pop-os:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a7a5b44_a720_40e1_9321_8a9dca413af7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp:/home/aliha1313/pymoveit2/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aliha1313/FUM6R-WS/build/moveit_6r'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/aliha1313/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages:/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp/lib/python3.10/site-packages:/home/aliha1313/pymoveit2/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/pymoveit2/install:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp:/opt/ros/humble')]), 'shell': False}
+[0.099038] (-) TimerEvent: {}
+[0.199339] (-) TimerEvent: {}
+[0.299640] (-) TimerEvent: {}
+[0.385071] (motion_planning) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/position_subscriber.dir/src/position_subscriber.cpp.o\x1b[0m\n'}
+[0.385449] (motion_planning) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/position_target.dir/src/position_target.cpp.o\x1b[0m\n'}
+[0.385826] (motion_planning) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/waypoints_target.dir/src/waypoints_target.cpp.o\x1b[0m\n'}
+[0.399764] (-) TimerEvent: {}
+[0.500087] (-) TimerEvent: {}
+[0.600395] (-) TimerEvent: {}
+[0.700760] (-) TimerEvent: {}
+[0.731120] (moveit_6r) CommandEnded: {'returncode': 0}
+[0.752039] (moveit_6r) JobProgress: {'identifier': 'moveit_6r', 'progress': 'install'}
+[0.763358] (moveit_6r) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aliha1313/FUM6R-WS/build/moveit_6r'], 'cwd': '/home/aliha1313/FUM6R-WS/build/moveit_6r', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aliha1313'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aliha1313'), ('OLDPWD', '/home/aliha1313'), ('DESKTOP_SESSION', 'pop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('SYSTEMD_EXEC_PID', '1551'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/aliha1313/pymoveit2/install:/home/aliha1313/FUM6R-WS/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aliha1313'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aliha1313'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/aliha1313/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/1524,unix/pop-os:/tmp/.ICE-unix/1524'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5a7a5b44_a720_40e1_9321_8a9dca413af7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp:/home/aliha1313/pymoveit2/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aliha1313/FUM6R-WS/build/moveit_6r'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/aliha1313/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages:/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp/lib/python3.10/site-packages:/home/aliha1313/pymoveit2/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/pymoveit2/install:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp:/opt/ros/humble')]), 'shell': False}
+[0.771543] (moveit_6r) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.771930] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/ament_index/resource_index/package_run_dependencies/moveit_6r\n'}
+[0.772080] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/ament_index/resource_index/parent_prefix_path/moveit_6r\n'}
+[0.772208] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/environment/ament_prefix_path.sh\n'}
+[0.772331] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/environment/ament_prefix_path.dsv\n'}
+[0.772453] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/environment/path.sh\n'}
+[0.772625] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/environment/path.dsv\n'}
+[0.772900] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/local_setup.bash\n'}
+[0.773028] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/local_setup.sh\n'}
+[0.773151] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/local_setup.zsh\n'}
+[0.773277] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/local_setup.dsv\n'}
+[0.773415] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/package.dsv\n'}
+[0.773703] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/ament_index/resource_index/packages/moveit_6r\n'}
+[0.773838] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/cmake/moveit_6rConfig.cmake\n'}
+[0.773960] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/cmake/moveit_6rConfig-version.cmake\n'}
+[0.774081] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/package.xml\n'}
+[0.774200] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch\n'}
+[0.774320] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/static_virtual_joint_tfs.launch.py\n'}
+[0.774437] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/demo.launch.py\n'}
+[0.774565] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/setup_assistant.launch.py\n'}
+[0.774686] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/spawn_controllers.launch.py\n'}
+[0.774805] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/moveit_rviz.launch.py\n'}
+[0.774925] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/warehouse_db.launch.py\n'}
+[0.775040] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/move_group.launch.py\n'}
+[0.775158] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/launch/rsp.launch.py\n'}
+[0.775279] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config\n'}
+[0.775400] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/moveit_controllers.yaml\n'}
+[0.775522] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/ros2_controllers.yaml\n'}
+[0.775643] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/pilz_cartesian_limits.yaml\n'}
+[0.775848] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/joint_limits.yaml\n'}
+[0.776033] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/fum6r_new_corsys.urdf.xacro\n'}
+[0.776162] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/moveit.rviz\n'}
+[0.776283] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/fum6r_new_corsys.ros2_control.xacro\n'}
+[0.776405] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/initial_positions.yaml\n'}
+[0.776527] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/fum6r_new_corsys.srdf\n'}
+[0.776646] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/kinematics.yaml\n'}
+[0.776764] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/config/sensors_3d.yaml\n'}
+[0.776882] (moveit_6r) StdoutLine: {'line': b'-- Up-to-date: /home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/.setup_assistant\n'}
+[0.777650] (moveit_6r) CommandEnded: {'returncode': 0}
+[0.800850] (-) TimerEvent: {}
+[0.829277] (moveit_6r) JobEnded: {'identifier': 'moveit_6r', 'rc': 0}
+[0.900956] (-) TimerEvent: {}
+[1.001309] (-) TimerEvent: {}
+[1.101674] (-) TimerEvent: {}
+[1.202054] (-) TimerEvent: {}
+[1.229139] (ros2_control_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_control_bringup', 'build', '--build-base', '/home/aliha1313/FUM6R-WS/build/ros2_control_bringup/build', 'install', '--record', '/home/aliha1313/FUM6R-WS/build/ros2_control_bringup/install.log', '--install-scripts', '$base/lib/ros2_control_bringup', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aliha1313/FUM6R-WS/src/ros2_control_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aliha1313', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/aliha1313', 'OLDPWD': '/home/aliha1313', 'DESKTOP_SESSION': 'pop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'pop', 'GTK_MODULES': 'gail:atk-bridge:appmenu-gtk-module', 'SYSTEMD_EXEC_PID': '1551', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/aliha1313/pymoveit2/install:/home/aliha1313/FUM6R-WS/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'aliha1313', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aliha1313', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/aliha1313/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pop-os:@/tmp/.ICE-unix/1524,unix/pop-os:/tmp/.ICE-unix/1524', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5a7a5b44_a720_40e1_9321_8a9dca413af7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'pop:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'pop', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp:/home/aliha1313/pymoveit2/install:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'pop', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aliha1313/FUM6R-WS/build/ros2_control_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-pop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/pop:/usr/share/gnome:/home/aliha1313/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/', 'PYTHONPATH': '/home/aliha1313/FUM6R-WS/build/ros2_control_bringup/prefix_override:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/python3.10/site-packages:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages:/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp/lib/python3.10/site-packages:/home/aliha1313/pymoveit2/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/pymoveit2/install'}, 'shell': False}
+[1.233692] (pidcontrollerpkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/pidcontrollerpkg', 'build', '--build-base', '/home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/build', 'install', '--record', '/home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/install.log', '--install-scripts', '$base/lib/pidcontrollerpkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aliha1313', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/aliha1313', 'OLDPWD': '/home/aliha1313', 'DESKTOP_SESSION': 'pop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'pop', 'GTK_MODULES': 'gail:atk-bridge:appmenu-gtk-module', 'SYSTEMD_EXEC_PID': '1551', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/aliha1313/pymoveit2/install:/home/aliha1313/FUM6R-WS/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'aliha1313', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aliha1313', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/aliha1313/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/pop-os:@/tmp/.ICE-unix/1524,unix/pop-os:/tmp/.ICE-unix/1524', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5a7a5b44_a720_40e1_9321_8a9dca413af7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'pop:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'pop', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp:/home/aliha1313/pymoveit2/install:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'pop', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aliha1313/FUM6R-WS/build/pidcontrollerpkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-pop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/pop:/usr/share/gnome:/home/aliha1313/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/', 'PYTHONPATH': '/home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/prefix_override:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages:/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp/lib/python3.10/site-packages:/home/aliha1313/pymoveit2/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/pymoveit2/install'}, 'shell': False}
+[1.302166] (-) TimerEvent: {}
+[1.402474] (-) TimerEvent: {}
+[1.502755] (-) TimerEvent: {}
+[1.543093] (pidcontrollerpkg) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.543339] (pidcontrollerpkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.548637] (ros2_control_bringup) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.548949] (ros2_control_bringup) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.554486] (pidcontrollerpkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.555346] (pidcontrollerpkg) StdoutLine: {'line': b'writing ../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info/PKG-INFO\n'}
+[1.555646] (pidcontrollerpkg) StdoutLine: {'line': b'writing dependency_links to ../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info/dependency_links.txt\n'}
+[1.555875] (pidcontrollerpkg) StdoutLine: {'line': b'writing entry points to ../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info/entry_points.txt\n'}
+[1.556085] (pidcontrollerpkg) StdoutLine: {'line': b'writing requirements to ../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info/requires.txt\n'}
+[1.556334] (pidcontrollerpkg) StdoutLine: {'line': b'writing top-level names to ../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info/top_level.txt\n'}
+[1.559191] (pidcontrollerpkg) StdoutLine: {'line': b"reading manifest file '../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info/SOURCES.txt'\n"}
+[1.560636] (ros2_control_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[1.560946] (pidcontrollerpkg) StdoutLine: {'line': b"writing manifest file '../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info/SOURCES.txt'\n"}
+[1.561108] (pidcontrollerpkg) StdoutLine: {'line': b'running build\n'}
+[1.561247] (pidcontrollerpkg) StdoutLine: {'line': b'running build_py\n'}
+[1.561712] (ros2_control_bringup) StdoutLine: {'line': b'writing ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/PKG-INFO\n'}
+[1.561997] (ros2_control_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/dependency_links.txt\n'}
+[1.562219] (ros2_control_bringup) StdoutLine: {'line': b'writing entry points to ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/entry_points.txt\n'}
+[1.562430] (ros2_control_bringup) StdoutLine: {'line': b'writing requirements to ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/requires.txt\n'}
+[1.562659] (pidcontrollerpkg) StdoutLine: {'line': b'running install\n'}
+[1.562817] (ros2_control_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/top_level.txt\n'}
+[1.563006] (pidcontrollerpkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.565200] (ros2_control_bringup) StdoutLine: {'line': b"reading manifest file '../../build/ros2_control_bringup/ros2_control_bringup.egg-info/SOURCES.txt'\n"}
+[1.565485] (pidcontrollerpkg) StdoutLine: {'line': b'running install_data\n'}
+[1.565653] (pidcontrollerpkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.566607] (ros2_control_bringup) StdoutLine: {'line': b"writing manifest file '../../build/ros2_control_bringup/ros2_control_bringup.egg-info/SOURCES.txt'\n"}
+[1.566836] (ros2_control_bringup) StdoutLine: {'line': b'running build\n'}
+[1.566989] (ros2_control_bringup) StdoutLine: {'line': b'running build_py\n'}
+[1.567380] (ros2_control_bringup) StdoutLine: {'line': b'running install\n'}
+[1.567601] (pidcontrollerpkg) StdoutLine: {'line': b"removing '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages/pidcontrollerpkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.567826] (ros2_control_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[1.568028] (pidcontrollerpkg) StdoutLine: {'line': b'Copying ../../build/pidcontrollerpkg/pidcontrollerpkg.egg-info to /home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages/pidcontrollerpkg-0.0.0-py3.10.egg-info\n'}
+[1.568834] (pidcontrollerpkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.569469] (ros2_control_bringup) StdoutLine: {'line': b'running install_data\n'}
+[1.569751] (ros2_control_bringup) StderrLine: {'line': b"error: can't copy 'resource/ros2_control_bringup': doesn't exist or not a regular file\n"}
+[1.597061] (ros2_control_bringup) CommandEnded: {'returncode': 1}
+[1.597739] (ros2_control_bringup) JobEnded: {'identifier': 'ros2_control_bringup', 'rc': 1}
+[1.598344] (pidcontrollerpkg) StdoutLine: {'line': b'Installing pidinv script to /home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/pidcontrollerpkg\n'}
+[1.598519] (pidcontrollerpkg) StdoutLine: {'line': b'Installing pidnode1 script to /home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/pidcontrollerpkg\n'}
+[1.598667] (pidcontrollerpkg) StdoutLine: {'line': b'Installing pidnode2 script to /home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/pidcontrollerpkg\n'}
+[1.598805] (pidcontrollerpkg) StdoutLine: {'line': b'Installing pidnode3 script to /home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/pidcontrollerpkg\n'}
+[1.598942] (pidcontrollerpkg) StdoutLine: {'line': b'Installing settorque script to /home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/pidcontrollerpkg\n'}
+[1.599196] (pidcontrollerpkg) StdoutLine: {'line': b"writing list of installed files to '/home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/install.log'\n"}
+[1.602873] (-) TimerEvent: {}
+[1.628913] (pidcontrollerpkg) JobEnded: {'identifier': 'pidcontrollerpkg', 'rc': 'SIGINT'}
+[1.702996] (-) TimerEvent: {}
+[1.803293] (-) TimerEvent: {}
+[1.903601] (-) TimerEvent: {}
+[2.003908] (-) TimerEvent: {}
+[2.104224] (-) TimerEvent: {}
+[2.204541] (-) TimerEvent: {}
+[2.304842] (-) TimerEvent: {}
+[2.405144] (-) TimerEvent: {}
+[2.505464] (-) TimerEvent: {}
+[2.605781] (-) TimerEvent: {}
+[2.706102] (-) TimerEvent: {}
+[2.806411] (-) TimerEvent: {}
+[2.906720] (-) TimerEvent: {}
+[3.007034] (-) TimerEvent: {}
+[3.107344] (-) TimerEvent: {}
+[3.207648] (-) TimerEvent: {}
+[3.307960] (-) TimerEvent: {}
+[3.408281] (-) TimerEvent: {}
+[3.508586] (-) TimerEvent: {}
+[3.608904] (-) TimerEvent: {}
+[3.709225] (-) TimerEvent: {}
+[3.809475] (-) TimerEvent: {}
+[3.909779] (-) TimerEvent: {}
+[4.010082] (-) TimerEvent: {}
+[4.110367] (-) TimerEvent: {}
+[4.210677] (-) TimerEvent: {}
+[4.310956] (-) TimerEvent: {}
+[4.411271] (-) TimerEvent: {}
+[4.511565] (-) TimerEvent: {}
+[4.611854] (-) TimerEvent: {}
+[4.712158] (-) TimerEvent: {}
+[4.812466] (-) TimerEvent: {}
+[4.912824] (-) TimerEvent: {}
+[5.013102] (-) TimerEvent: {}
+[5.113394] (-) TimerEvent: {}
+[5.213701] (-) TimerEvent: {}
+[5.313982] (-) TimerEvent: {}
+[5.414301] (-) TimerEvent: {}
+[5.514578] (-) TimerEvent: {}
+[5.614881] (-) TimerEvent: {}
+[5.715179] (-) TimerEvent: {}
+[5.815455] (-) TimerEvent: {}
+[5.915733] (-) TimerEvent: {}
+[6.016009] (-) TimerEvent: {}
+[6.116308] (-) TimerEvent: {}
+[6.216591] (-) TimerEvent: {}
+[6.316871] (-) TimerEvent: {}
+[6.417148] (-) TimerEvent: {}
+[6.517432] (-) TimerEvent: {}
+[6.617738] (-) TimerEvent: {}
+[6.718059] (-) TimerEvent: {}
+[6.818371] (-) TimerEvent: {}
+[6.918686] (-) TimerEvent: {}
+[7.019002] (-) TimerEvent: {}
+[7.119312] (-) TimerEvent: {}
+[7.219623] (-) TimerEvent: {}
+[7.319945] (-) TimerEvent: {}
+[7.420259] (-) TimerEvent: {}
+[7.520583] (-) TimerEvent: {}
+[7.620907] (-) TimerEvent: {}
+[7.721228] (-) TimerEvent: {}
+[7.821531] (-) TimerEvent: {}
+[7.921848] (-) TimerEvent: {}
+[8.022167] (-) TimerEvent: {}
+[8.122486] (-) TimerEvent: {}
+[8.222814] (-) TimerEvent: {}
+[8.323144] (-) TimerEvent: {}
+[8.423484] (-) TimerEvent: {}
+[8.523819] (-) TimerEvent: {}
+[8.624159] (-) TimerEvent: {}
+[8.724511] (-) TimerEvent: {}
+[8.824862] (-) TimerEvent: {}
+[8.925186] (-) TimerEvent: {}
+[9.025481] (-) TimerEvent: {}
+[9.125788] (-) TimerEvent: {}
+[9.226114] (-) TimerEvent: {}
+[9.326420] (-) TimerEvent: {}
+[9.426766] (-) TimerEvent: {}
+[9.527038] (-) TimerEvent: {}
+[9.627341] (-) TimerEvent: {}
+[9.702017] (motion_planning) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable waypoints_target\x1b[0m\n'}
+[9.709295] (motion_planning) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable position_target\x1b[0m\n'}
+[9.727456] (-) TimerEvent: {}
+[9.827884] (-) TimerEvent: {}
+[9.928277] (-) TimerEvent: {}
+[10.028636] (-) TimerEvent: {}
+[10.097396] (motion_planning) StdoutLine: {'line': b'[ 83%] Built target position_target\n'}
+[10.101051] (motion_planning) StdoutLine: {'line': b'[ 83%] Built target waypoints_target\n'}
+[10.128755] (-) TimerEvent: {}
+[10.229057] (-) TimerEvent: {}
+[10.329364] (-) TimerEvent: {}
+[10.429672] (-) TimerEvent: {}
+[10.529939] (-) TimerEvent: {}
+[10.630212] (-) TimerEvent: {}
+[10.730483] (-) TimerEvent: {}
+[10.830754] (-) TimerEvent: {}
+[10.931049] (-) TimerEvent: {}
+[11.031314] (-) TimerEvent: {}
+[11.131605] (-) TimerEvent: {}
+[11.231920] (-) TimerEvent: {}
+[11.332222] (-) TimerEvent: {}
+[11.432528] (-) TimerEvent: {}
+[11.532842] (-) TimerEvent: {}
+[11.633153] (-) TimerEvent: {}
+[11.733455] (-) TimerEvent: {}
+[11.833750] (-) TimerEvent: {}
+[11.934053] (-) TimerEvent: {}
+[12.034353] (-) TimerEvent: {}
+[12.134652] (-) TimerEvent: {}
+[12.234942] (-) TimerEvent: {}
+[12.335243] (-) TimerEvent: {}
+[12.435551] (-) TimerEvent: {}
+[12.535847] (-) TimerEvent: {}
+[12.636113] (-) TimerEvent: {}
+[12.736371] (-) TimerEvent: {}
+[12.836661] (-) TimerEvent: {}
+[12.936954] (-) TimerEvent: {}
+[13.037218] (-) TimerEvent: {}
+[13.137492] (-) TimerEvent: {}
+[13.237756] (-) TimerEvent: {}
+[13.338024] (-) TimerEvent: {}
+[13.438310] (-) TimerEvent: {}
+[13.538580] (-) TimerEvent: {}
+[13.638855] (-) TimerEvent: {}
+[13.739119] (-) TimerEvent: {}
+[13.839417] (-) TimerEvent: {}
+[13.939707] (-) TimerEvent: {}
+[14.039980] (-) TimerEvent: {}
+[14.140249] (-) TimerEvent: {}
+[14.240511] (-) TimerEvent: {}
+[14.340797] (-) TimerEvent: {}
+[14.441061] (-) TimerEvent: {}
+[14.541322] (-) TimerEvent: {}
+[14.641595] (-) TimerEvent: {}
+[14.741865] (-) TimerEvent: {}
+[14.842152] (-) TimerEvent: {}
+[14.942411] (-) TimerEvent: {}
+[15.042670] (-) TimerEvent: {}
+[15.142932] (-) TimerEvent: {}
+[15.243201] (-) TimerEvent: {}
+[15.343496] (-) TimerEvent: {}
+[15.443757] (-) TimerEvent: {}
+[15.544031] (-) TimerEvent: {}
+[15.644298] (-) TimerEvent: {}
+[15.744566] (-) TimerEvent: {}
+[15.844865] (-) TimerEvent: {}
+[15.945154] (-) TimerEvent: {}
+[16.045455] (-) TimerEvent: {}
+[16.046499] (motion_planning) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable position_subscriber\x1b[0m\n'}
+[16.145553] (-) TimerEvent: {}
+[16.245852] (-) TimerEvent: {}
+[16.346155] (-) TimerEvent: {}
+[16.446436] (-) TimerEvent: {}
+[16.546719] (-) TimerEvent: {}
+[16.646982] (-) TimerEvent: {}
+[16.747266] (-) TimerEvent: {}
+[16.785462] (motion_planning) StdoutLine: {'line': b'[100%] Built target position_subscriber\n'}
+[16.799428] (motion_planning) JobEnded: {'identifier': 'motion_planning', 'rc': 'SIGINT'}
+[16.809854] (-) EventReactorShutdown: {}

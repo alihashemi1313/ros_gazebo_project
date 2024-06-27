@@ -1,0 +1,314 @@
+[0.103s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.103s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76ead9025450>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76ead9025000>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76ead9025000>>)
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.273s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aliha1313/FUM6R-WS'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planning) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planning) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planning) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planning) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planning) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planning) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planning) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planning) by extension 'ros'
+[0.289s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_planning' with type 'ros.ament_cmake' and name 'motion_planning'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_6r) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_6r) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_6r) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_6r) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_6r) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_6r) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_6r) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_6r) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_6r) by extension 'ros'
+[0.290s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_6r' with type 'ros.ament_cmake' and name 'moveit_6r'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/pidcontrollerpkg) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/pidcontrollerpkg) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/pidcontrollerpkg) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/pidcontrollerpkg) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/pidcontrollerpkg) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/pidcontrollerpkg) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/pidcontrollerpkg) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/pidcontrollerpkg) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/pidcontrollerpkg) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pidcontrollerpkg' with type 'ros.ament_python' and name 'pidcontrollerpkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_bringup) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_bringup) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_bringup) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_bringup) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_bringup) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_bringup) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_bringup) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_bringup) by extension 'ros'
+[0.292s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_bringup' with type 'ros.ament_python' and name 'ros2_control_bringup'
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.322s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/aliha1313/pymoveit2/install
+[0.331s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/aliha1313/FUM6R-WS/install
+[0.333s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 374 installed packages in /opt/ros/humble
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.378s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'motion_planning' is in: /home/aliha1313/FUM6R-WS/install/motion_planning
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding motion_planning
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'motion_planning' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'motion_planning' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'motion_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'motion_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'motion_planning' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'motion_planning' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'motion_planning' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'motion_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'motion_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'motion_planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aliha1313/FUM6R-WS/build/motion_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aliha1313/FUM6R-WS/install/motion_planning', 'merge_install': False, 'path': '/home/aliha1313/FUM6R-WS/src/motion_planning', 'symlink_install': False, 'test_result_base': None}
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pidcontrollerpkg' build argument 'cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pidcontrollerpkg' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pidcontrollerpkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pidcontrollerpkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pidcontrollerpkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pidcontrollerpkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pidcontrollerpkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pidcontrollerpkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'pidcontrollerpkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'pidcontrollerpkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aliha1313/FUM6R-WS/build/pidcontrollerpkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg', 'merge_install': False, 'path': '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg', 'symlink_install': False, 'test_result_base': None}
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bringup' build argument 'cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bringup' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.381s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aliha1313/FUM6R-WS/build/ros2_control_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup', 'merge_install': False, 'path': '/home/aliha1313/FUM6R-WS/src/ros2_control_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'moveit_6r' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'moveit_6r' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'moveit_6r' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'moveit_6r' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'moveit_6r' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'moveit_6r' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'moveit_6r' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'moveit_6r' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'moveit_6r' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.381s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_6r' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aliha1313/FUM6R-WS/build/moveit_6r', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aliha1313/FUM6R-WS/install/moveit_6r', 'merge_install': False, 'path': '/home/aliha1313/FUM6R-WS/src/moveit_6r', 'symlink_install': False, 'test_result_base': None}
+[0.381s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.383s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aliha1313/FUM6R-WS/src/ros2_control_bringup' with build type 'ament_python'
+[0.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_bringup', 'ament_prefix_path')
+[0.385s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/hook/ament_prefix_path.ps1'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/hook/ament_prefix_path.dsv'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/hook/ament_prefix_path.sh'
+[0.386s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.390s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aliha1313/FUM6R-WS/src/motion_planning' with build type 'ament_cmake'
+[0.390s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aliha1313/FUM6R-WS/src/motion_planning'
+[0.390s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.390s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.393s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg' with build type 'ament_python'
+[0.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('pidcontrollerpkg', 'ament_prefix_path')
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/share/pidcontrollerpkg/hook/ament_prefix_path.ps1'
+[0.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/share/pidcontrollerpkg/hook/ament_prefix_path.dsv'
+[0.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/share/pidcontrollerpkg/hook/ament_prefix_path.sh'
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.628s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aliha1313/FUM6R-WS/src/ros2_control_bringup'
+[0.628s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.628s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliha1313/FUM6R-WS/build/motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/opt/ros/humble /usr/bin/cmake --build /home/aliha1313/FUM6R-WS/build/motion_planning -- -j12 -l12
+[0.878s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg'
+[0.878s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.878s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliha1313/FUM6R-WS/build/motion_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/opt/ros/humble /usr/bin/cmake --build /home/aliha1313/FUM6R-WS/build/motion_planning -- -j12 -l12
+[0.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliha1313/FUM6R-WS/build/motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/opt/ros/humble /usr/bin/cmake --install /home/aliha1313/FUM6R-WS/build/motion_planning
+[0.925s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_planning)
+[0.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliha1313/FUM6R-WS/build/motion_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/opt/ros/humble /usr/bin/cmake --install /home/aliha1313/FUM6R-WS/build/motion_planning
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/motion_planning' for CMake module files
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/motion_planning' for CMake config files
+[0.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_planning', 'cmake_prefix_path')
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/hook/cmake_prefix_path.ps1'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/hook/cmake_prefix_path.dsv'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/hook/cmake_prefix_path.sh'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/motion_planning/lib'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/motion_planning/bin'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/motion_planning/lib/pkgconfig/motion_planning.pc'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/motion_planning/lib/python3.10/site-packages'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/motion_planning/bin'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/package.ps1'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/package.dsv'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/package.sh'
+[0.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/package.bash'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/package.zsh'
+[0.934s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliha1313/FUM6R-WS/install/motion_planning/share/colcon-core/packages/motion_planning)
+[0.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_planning)
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/motion_planning' for CMake module files
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/motion_planning' for CMake config files
+[0.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_planning', 'cmake_prefix_path')
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/hook/cmake_prefix_path.ps1'
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/hook/cmake_prefix_path.dsv'
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/hook/cmake_prefix_path.sh'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/motion_planning/lib'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/motion_planning/bin'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/motion_planning/lib/pkgconfig/motion_planning.pc'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/motion_planning/lib/python3.10/site-packages'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/motion_planning/bin'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/package.ps1'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/package.dsv'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/package.sh'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/package.bash'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/package.zsh'
+[0.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliha1313/FUM6R-WS/install/motion_planning/share/colcon-core/packages/motion_planning)
+[1.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg': PYTHONPATH=/home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/prefix_override:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pidcontrollerpkg build --build-base /home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/build install --record /home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/install.log --single-version-externally-managed install_data
+[1.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliha1313/FUM6R-WS/src/ros2_control_bringup': PYTHONPATH=/home/aliha1313/FUM6R-WS/build/ros2_control_bringup/prefix_override:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_control_bringup build --build-base /home/aliha1313/FUM6R-WS/build/ros2_control_bringup/build install --record /home/aliha1313/FUM6R-WS/build/ros2_control_bringup/install.log --single-version-externally-managed install_data
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg' for CMake module files
+[1.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg' returned '0': PYTHONPATH=/home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/prefix_override:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pidcontrollerpkg build --build-base /home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/build install --record /home/aliha1313/FUM6R-WS/build/pidcontrollerpkg/install.log --single-version-externally-managed install_data
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg' for CMake config files
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib'
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/bin'
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/pkgconfig/pidcontrollerpkg.pc'
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.10/site-packages'
+[1.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('pidcontrollerpkg', 'pythonpath')
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/share/pidcontrollerpkg/hook/pythonpath.ps1'
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/share/pidcontrollerpkg/hook/pythonpath.dsv'
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/share/pidcontrollerpkg/hook/pythonpath.sh'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/bin'
+[1.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pidcontrollerpkg)
+[1.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/share/pidcontrollerpkg/package.ps1'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/share/pidcontrollerpkg/package.dsv'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/share/pidcontrollerpkg/package.sh'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/share/pidcontrollerpkg/package.bash'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/share/pidcontrollerpkg/package.zsh'
+[1.499s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/share/colcon-core/packages/pidcontrollerpkg)
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup' for CMake module files
+[1.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliha1313/FUM6R-WS/src/ros2_control_bringup' returned '0': PYTHONPATH=/home/aliha1313/FUM6R-WS/build/ros2_control_bringup/prefix_override:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_control_bringup build --build-base /home/aliha1313/FUM6R-WS/build/ros2_control_bringup/build install --record /home/aliha1313/FUM6R-WS/build/ros2_control_bringup/install.log --single-version-externally-managed install_data
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup' for CMake config files
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib'
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/bin'
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/pkgconfig/ros2_control_bringup.pc'
+[1.524s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/python3.10/site-packages'
+[1.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_bringup', 'pythonpath')
+[1.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/hook/pythonpath.ps1'
+[1.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/hook/pythonpath.dsv'
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/hook/pythonpath.sh'
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/bin'
+[1.525s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_bringup)
+[1.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/package.ps1'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/package.dsv'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/package.sh'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/package.bash'
+[1.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/package.zsh'
+[1.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/colcon-core/packages/ros2_control_bringup)
+[1.527s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aliha1313/FUM6R-WS/src/moveit_6r' with build type 'ament_cmake'
+[1.527s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aliha1313/FUM6R-WS/src/moveit_6r'
+[1.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliha1313/FUM6R-WS/build/moveit_6r': AMENT_PREFIX_PATH=/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/home/aliha1313/FUM6R-WS/install/motion_planning:/home/aliha1313/pymoveit2/install:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/opt/ros/humble /usr/bin/cmake --build /home/aliha1313/FUM6R-WS/build/moveit_6r -- -j12 -l12
+[1.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliha1313/FUM6R-WS/build/moveit_6r' returned '0': AMENT_PREFIX_PATH=/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/home/aliha1313/FUM6R-WS/install/motion_planning:/home/aliha1313/pymoveit2/install:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/opt/ros/humble /usr/bin/cmake --build /home/aliha1313/FUM6R-WS/build/moveit_6r -- -j12 -l12
+[1.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aliha1313/FUM6R-WS/build/moveit_6r': AMENT_PREFIX_PATH=/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/home/aliha1313/FUM6R-WS/install/motion_planning:/home/aliha1313/pymoveit2/install:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/opt/ros/humble /usr/bin/cmake --install /home/aliha1313/FUM6R-WS/build/moveit_6r
+[1.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_6r)
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/moveit_6r' for CMake module files
+[1.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aliha1313/FUM6R-WS/build/moveit_6r' returned '0': AMENT_PREFIX_PATH=/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/home/aliha1313/FUM6R-WS/install/motion_planning:/home/aliha1313/pymoveit2/install:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/opt/ros/humble /usr/bin/cmake --install /home/aliha1313/FUM6R-WS/build/moveit_6r
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/moveit_6r' for CMake config files
+[1.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_6r', 'cmake_prefix_path')
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/hook/cmake_prefix_path.ps1'
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/hook/cmake_prefix_path.dsv'
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/hook/cmake_prefix_path.sh'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/moveit_6r/bin'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/moveit_6r/lib/pkgconfig/moveit_6r.pc'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/moveit_6r/lib/python3.10/site-packages'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/moveit_6r/bin'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/package.ps1'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/package.dsv'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/package.sh'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/package.bash'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/package.zsh'
+[1.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliha1313/FUM6R-WS/install/moveit_6r/share/colcon-core/packages/moveit_6r)
+[1.607s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_6r)
+[1.607s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/moveit_6r' for CMake module files
+[1.607s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/moveit_6r' for CMake config files
+[1.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_6r', 'cmake_prefix_path')
+[1.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/hook/cmake_prefix_path.ps1'
+[1.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/hook/cmake_prefix_path.dsv'
+[1.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/hook/cmake_prefix_path.sh'
+[1.609s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/moveit_6r/bin'
+[1.609s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/moveit_6r/lib/pkgconfig/moveit_6r.pc'
+[1.609s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/moveit_6r/lib/python3.10/site-packages'
+[1.609s] Level 1:colcon.colcon_core.environment:checking '/home/aliha1313/FUM6R-WS/install/moveit_6r/bin'
+[1.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/package.ps1'
+[1.610s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/package.dsv'
+[1.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/package.sh'
+[1.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/package.bash'
+[1.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/aliha1313/FUM6R-WS/install/moveit_6r/share/moveit_6r/package.zsh'
+[1.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aliha1313/FUM6R-WS/install/moveit_6r/share/colcon-core/packages/moveit_6r)
+[1.611s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.611s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.611s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.611s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.616s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.616s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.616s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.616s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.624s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.625s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aliha1313/FUM6R-WS/install/local_setup.ps1'
+[1.625s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aliha1313/FUM6R-WS/install/_local_setup_util_ps1.py'
+[1.626s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aliha1313/FUM6R-WS/install/setup.ps1'
+[1.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aliha1313/FUM6R-WS/install/local_setup.sh'
+[1.628s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aliha1313/FUM6R-WS/install/_local_setup_util_sh.py'
+[1.628s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aliha1313/FUM6R-WS/install/setup.sh'
+[1.629s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aliha1313/FUM6R-WS/install/local_setup.bash'
+[1.630s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aliha1313/FUM6R-WS/install/setup.bash'
+[1.631s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aliha1313/FUM6R-WS/install/local_setup.zsh'
+[1.631s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aliha1313/FUM6R-WS/install/setup.zsh'

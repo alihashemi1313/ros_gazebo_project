@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:21 (find_package):
+  By not providing "Findignition-fortress.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "ignition-fortress", but CMake did not find one.
+
+  Could not find a package configuration file provided by "ignition-fortress"
+  with any of the following names:
+
+    ignition-fortressConfig.cmake
+    ignition-fortress-config.cmake
+
+  Add the installation prefix of "ignition-fortress" to CMAKE_PREFIX_PATH or
+  set "ignition-fortress_DIR" to a directory containing one of the above
+  files.  If "ignition-fortress" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

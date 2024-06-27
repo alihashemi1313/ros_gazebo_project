@@ -1,0 +1,45 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/requires.txt
+writing top-level names to ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/top_level.txt
+reading manifest file '../../build/ros2_control_bringup/ros2_control_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_control_bringup/ros2_control_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying resource/ros2_control_bringup -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup
+creating /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/launch
+copying launch/rviz.launch.py -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/launch
+copying launch/ros_con.launch.py -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/launch
+copying launch/webots.launch.py -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/launch
+copying launch/roscontrol.launch.py -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/launch
+copying launch/gazebo.launch.py -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/launch
+copying launch/controller.launch.py -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/launch
+creating /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/urdf
+copying urdf/FUM6R.urdf -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/urdf
+copying urdf/fum6r_new_position.urdf -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/urdf
+copying urdf/fum6r_new_corsys.urdf.xacro -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/urdf
+copying urdf/fum6r.urdf -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/urdf
+copying urdf/fum6r_new_corsys.urdf -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/urdf
+copying urdf/FUM6R_u.urdf -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/urdf
+creating /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/config
+copying config/jtcPID.yaml -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/config
+copying config/jtc.yaml -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/config
+copying config/jtc_position.yaml -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/config
+creating /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/world
+copying world/FUM6R_u.world -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/world
+copying world/my_world.wbt -> /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/share/ros2_control_bringup/world
+running install_egg_info
+Copying ../../build/ros2_control_bringup/ros2_control_bringup.egg-info to /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/python3.10/site-packages/ros2_control_bringup-0.0.0-py3.10.egg-info
+running install_scripts
+Installing CtrlInvTest script to /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/ros2_control_bringup
+Installing CtrlTest script to /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/ros2_control_bringup
+Installing P3DTest script to /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/ros2_control_bringup
+writing list of installed files to '/home/aliha1313/FUM6R-WS/build/ros2_control_bringup/install.log'

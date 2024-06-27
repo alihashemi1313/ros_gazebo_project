@@ -1,0 +1,55 @@
+[1.246s] Invoking command in '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg': PYTHONPATH=/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/prefix_override:/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/pidcontrollerpkg build --build-base /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build install --record /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/install.log --install-scripts $base/lib/pidcontrollerpkg --single-version-externally-managed
+[1.551s] running egg_info
+[1.552s] creating build/pidcontrollerpkg/pidcontrollerpkg.egg-info
+[1.553s] writing build/pidcontrollerpkg/pidcontrollerpkg.egg-info/PKG-INFO
+[1.553s] writing dependency_links to build/pidcontrollerpkg/pidcontrollerpkg.egg-info/dependency_links.txt
+[1.553s] writing entry points to build/pidcontrollerpkg/pidcontrollerpkg.egg-info/entry_points.txt
+[1.553s] writing requirements to build/pidcontrollerpkg/pidcontrollerpkg.egg-info/requires.txt
+[1.554s] writing top-level names to build/pidcontrollerpkg/pidcontrollerpkg.egg-info/top_level.txt
+[1.559s] writing manifest file 'build/pidcontrollerpkg/pidcontrollerpkg.egg-info/SOURCES.txt'
+[1.612s] reading manifest file 'build/pidcontrollerpkg/pidcontrollerpkg.egg-info/SOURCES.txt'
+[1.613s] writing manifest file 'build/pidcontrollerpkg/pidcontrollerpkg.egg-info/SOURCES.txt'
+[1.613s] running build
+[1.614s] running build_py
+[1.614s] creating /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build
+[1.614s] creating /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib
+[1.614s] creating /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg
+[1.614s] copying pidcontrollerpkg/PID_controller_Inv.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg
+[1.614s] copying pidcontrollerpkg/set_Tourqe.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg
+[1.615s] copying pidcontrollerpkg/PID_controller_1.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg
+[1.616s] copying pidcontrollerpkg/set_sine_tourqe.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg
+[1.616s] copying pidcontrollerpkg/set_Tourqe_AN.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg
+[1.618s] copying pidcontrollerpkg/PID_controller_2.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg
+[1.618s] copying pidcontrollerpkg/__init__.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg
+[1.618s] running install
+[1.620s] running install_lib
+[1.623s] creating /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg
+[1.624s] copying /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg/PID_controller_Inv.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg
+[1.625s] copying /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg/set_Tourqe.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg
+[1.625s] copying /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg/PID_controller_1.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg
+[1.625s] copying /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg/set_sine_tourqe.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg
+[1.626s] copying /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg/set_Tourqe_AN.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg
+[1.626s] copying /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg/PID_controller_2.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg
+[1.627s] copying /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build/lib/pidcontrollerpkg/__init__.py -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg
+[1.627s] byte-compiling /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg/PID_controller_Inv.py to PID_controller_Inv.cpython-38.pyc
+[1.633s] byte-compiling /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg/set_Tourqe.py to set_Tourqe.cpython-38.pyc
+[1.633s] byte-compiling /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg/PID_controller_1.py to PID_controller_1.cpython-38.pyc
+[1.635s] byte-compiling /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg/set_sine_tourqe.py to set_sine_tourqe.cpython-38.pyc
+[1.636s] byte-compiling /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg/set_Tourqe_AN.py to set_Tourqe_AN.cpython-38.pyc
+[1.636s] byte-compiling /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg/PID_controller_2.py to PID_controller_2.cpython-38.pyc
+[1.639s] byte-compiling /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg/__init__.py to __init__.cpython-38.pyc
+[1.640s] running install_data
+[1.640s] creating /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/share/ament_index
+[1.641s] creating /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/share/ament_index/resource_index
+[1.641s] creating /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/share/ament_index/resource_index/packages
+[1.642s] copying resource/pidcontrollerpkg -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/share/ament_index/resource_index/packages
+[1.642s] copying package.xml -> /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/share/pidcontrollerpkg
+[1.642s] running install_egg_info
+[1.646s] Copying build/pidcontrollerpkg/pidcontrollerpkg.egg-info to /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages/pidcontrollerpkg-0.0.0-py3.8.egg-info
+[1.647s] running install_scripts
+[1.677s] Installing pidinv script to /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/pidcontrollerpkg
+[1.678s] Installing pidnode1 script to /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/pidcontrollerpkg
+[1.678s] Installing pidnode2 script to /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/pidcontrollerpkg
+[1.679s] Installing pidnode3 script to /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/pidcontrollerpkg
+[1.679s] writing list of installed files to '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/install.log'
+[1.724s] Invoked command in '/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg' returned '0': PYTHONPATH=/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/prefix_override:/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/pidcontrollerpkg build --build-base /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/build install --record /home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/build/pidcontrollerpkg/install.log --install-scripts $base/lib/pidcontrollerpkg --single-version-externally-managed

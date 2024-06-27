@@ -1,0 +1,9 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/position_subscriber.dir/src/position_subscriber.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/position_target.dir/src/position_target.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/waypoints_target.dir/src/waypoints_target.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable waypoints_target[0m
+[ 83%] [32m[1mLinking CXX executable position_target[0m
+[ 83%] Built target position_target
+[ 83%] Built target waypoints_target
+[100%] [32m[1mLinking CXX executable position_subscriber[0m
+[100%] Built target position_subscriber

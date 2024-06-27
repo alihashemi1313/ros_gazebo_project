@@ -1,0 +1,24 @@
+[0.818s] Invoking command in '/home/aliha1313/FUM6R-WS/src/ros2_control_bringing_up': CMAKE_PREFIX_PATH=/home/aliha1313/FUM6R-WS/install/motion_planning:/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/pymoveit2/install PYTHONPATH=/home/aliha1313/FUM6R-WS/build/ros2_control_bringing_up/prefix_override:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_control_bringing_up build --build-base /home/aliha1313/FUM6R-WS/build/ros2_control_bringing_up/build install --record /home/aliha1313/FUM6R-WS/build/ros2_control_bringing_up/install.log --single-version-externally-managed install_data
+[1.130s] running egg_info
+[1.131s] writing ../../build/ros2_control_bringing_up/ros2_control_bringing_up.egg-info/PKG-INFO
+[1.131s] writing dependency_links to ../../build/ros2_control_bringing_up/ros2_control_bringing_up.egg-info/dependency_links.txt
+[1.132s] writing entry points to ../../build/ros2_control_bringing_up/ros2_control_bringing_up.egg-info/entry_points.txt
+[1.132s] writing requirements to ../../build/ros2_control_bringing_up/ros2_control_bringing_up.egg-info/requires.txt
+[1.132s] writing top-level names to ../../build/ros2_control_bringing_up/ros2_control_bringing_up.egg-info/top_level.txt
+[1.134s] reading manifest file '../../build/ros2_control_bringing_up/ros2_control_bringing_up.egg-info/SOURCES.txt'
+[1.135s] writing manifest file '../../build/ros2_control_bringing_up/ros2_control_bringing_up.egg-info/SOURCES.txt'
+[1.135s] running build
+[1.135s] running build_py
+[1.136s] running install
+[1.136s] running install_lib
+[1.138s] running install_data
+[1.139s] running install_egg_info
+[1.140s] removing '/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up/lib/python3.10/site-packages/ros2_control_bringing_up-0.0.0-py3.10.egg-info' (and everything under it)
+[1.141s] Copying ../../build/ros2_control_bringing_up/ros2_control_bringing_up.egg-info to /home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up/lib/python3.10/site-packages/ros2_control_bringing_up-0.0.0-py3.10.egg-info
+[1.142s] running install_scripts
+[1.167s] Installing CtrlInvTest script to /home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up/lib/ros2_control_bringing_up
+[1.167s] Installing CtrlTest script to /home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up/lib/ros2_control_bringing_up
+[1.168s] Installing P3DTest script to /home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up/lib/ros2_control_bringing_up
+[1.168s] Installing position_target script to /home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up/lib/ros2_control_bringing_up
+[1.168s] writing list of installed files to '/home/aliha1313/FUM6R-WS/build/ros2_control_bringing_up/install.log'
+[1.192s] Invoked command in '/home/aliha1313/FUM6R-WS/src/ros2_control_bringing_up' returned '0': CMAKE_PREFIX_PATH=/home/aliha1313/FUM6R-WS/install/motion_planning:/home/aliha1313/FUM6R-WS/install/moveit_6r:/home/aliha1313/pymoveit2/install PYTHONPATH=/home/aliha1313/FUM6R-WS/build/ros2_control_bringing_up/prefix_override:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_control_bringing_up build --build-base /home/aliha1313/FUM6R-WS/build/ros2_control_bringing_up/build install --record /home/aliha1313/FUM6R-WS/build/ros2_control_bringing_up/install.log --single-version-externally-managed install_data
