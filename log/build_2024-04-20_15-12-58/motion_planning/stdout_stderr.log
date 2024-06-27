@@ -1,0 +1,32 @@
+[ 83%] Built target waypoints_target
+[ 83%] Built target position_subscriber
+[ 83%] [32mBuilding CXX object CMakeFiles/position_target.dir/src/position_target.cpp.o[0m
+[01m[K/home/aliha1313/FUM6R-WS/src/motion_planning/src/position_target.cpp:[m[K In lambda function:
+[01m[K/home/aliha1313/FUM6R-WS/src/motion_planning/src/position_target.cpp:26:21:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   26 |     std::cin >> x,y,[01;35m[Kz[m[K;
+      |                     [01;35m[K^[m[K
+[01m[K/home/aliha1313/FUM6R-WS/src/motion_planning/src/position_target.cpp:26:22:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   26 |     std::cin >> x,y,z[01;35m[K;[m[K
+      |                      [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable position_target[0m
+[100%] Built target position_target
+-- Install configuration: ""
+-- Installing: /home/aliha1313/FUM6R-WS/install/motion_planning/lib/motion_planning/position_target
+-- Set runtime path of "/home/aliha1313/FUM6R-WS/install/motion_planning/lib/motion_planning/position_target" to ""
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/lib/motion_planning/position_subscriber
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/lib/motion_planning/waypoints_target
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/ament_index/resource_index/package_run_dependencies/motion_planning
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/ament_index/resource_index/parent_prefix_path/motion_planning
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/environment/ament_prefix_path.sh
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/environment/path.sh
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/environment/path.dsv
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/local_setup.bash
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/local_setup.sh
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/local_setup.zsh
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/local_setup.dsv
+-- Installing: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/package.dsv
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/ament_index/resource_index/packages/motion_planning
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/cmake/motion_planningConfig.cmake
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/cmake/motion_planningConfig-version.cmake
+-- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/package.xml

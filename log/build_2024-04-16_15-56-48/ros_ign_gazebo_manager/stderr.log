@@ -1,0 +1,8 @@
+In file included from [01m[K/home/aliha1313/FUM6R-WS/src/ign_manager/src/ign_gazebo_manager.cpp:17[m[K:
+[01m[K/home/aliha1313/FUM6R-WS/src/ign_manager/src/service_bridge.hpp:13:10:[m[K [01;31m[Kfatal error: [m[Kros_ign_bridge/convert_decl.hpp: No such file or directory
+   13 | #include [01;31m[K<ros_ign_bridge/convert_decl.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ign_gazebo_manager.dir/build.make:76: CMakeFiles/ign_gazebo_manager.dir/src/ign_gazebo_manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/ign_gazebo_manager.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,18 @@
+[0.458s] Invoking command in '/home/aliha1313/FUM6R-WS/build/ros_ign_gazebo_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/opt/ros/humble /usr/bin/cmake --build /home/aliha1313/FUM6R-WS/build/ros_ign_gazebo_manager -- -j12 -l12
+[0.495s] [35m[1mConsolidate compiler generated dependencies of target ign_gazebo_manager[0m
+[0.509s] [  0%] Built target ament_cmake_python_copy_ros_ign_gazebo_manager
+[0.514s] [ 50%] [32mBuilding CXX object CMakeFiles/ign_gazebo_manager.dir/src/ign_gazebo_manager.cpp.o[0m
+[0.519s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/aliha1313/FUM6R-WS/src/ign_manager/src/ign_gazebo_manager.cpp: No such file or directory
+[0.519s] compilation terminated.
+[0.519s] gmake[2]: *** [CMakeFiles/ign_gazebo_manager.dir/build.make:76: CMakeFiles/ign_gazebo_manager.dir/src/ign_gazebo_manager.cpp.o] Error 1
+[0.519s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/ign_gazebo_manager.dir/all] Error 2
+[0.519s] gmake[1]: *** Waiting for unfinished jobs....
+[0.733s] running egg_info
+[0.734s] writing ros_ign_gazebo_manager.egg-info/PKG-INFO
+[0.734s] writing dependency_links to ros_ign_gazebo_manager.egg-info/dependency_links.txt
+[0.734s] writing top-level names to ros_ign_gazebo_manager.egg-info/top_level.txt
+[0.736s] reading manifest file 'ros_ign_gazebo_manager.egg-info/SOURCES.txt'
+[0.737s] writing manifest file 'ros_ign_gazebo_manager.egg-info/SOURCES.txt'
+[0.763s] [ 50%] Built target ament_cmake_python_build_ros_ign_gazebo_manager_egg
+[0.764s] gmake: *** [Makefile:146: all] Error 2
+[0.767s] Invoked command in '/home/aliha1313/FUM6R-WS/build/ros_ign_gazebo_manager' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/opt/ros/humble /usr/bin/cmake --build /home/aliha1313/FUM6R-WS/build/ros_ign_gazebo_manager -- -j12 -l12

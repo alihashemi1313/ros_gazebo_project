@@ -1,0 +1,6 @@
+[console_scripts]
+CtrlInvTest = ros2_control_bringing_up.controller_Inv_test:main
+CtrlTest = ros2_control_bringing_up.controller_test:main
+P3DTest = ros2_control_bringing_up.p3dtest:main
+position_target = ros2_control_bringing_up.position_publisher:main
+

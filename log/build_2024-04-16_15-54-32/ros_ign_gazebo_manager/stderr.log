@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:21 (find_package):
+  By not providing "Findignition.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "ignition",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "ignition" with any
+  of the following names:
+
+    ignitionConfig.cmake
+    ignition-config.cmake
+
+  Add the installation prefix of "ignition" to CMAKE_PREFIX_PATH or set
+  "ignition_DIR" to a directory containing one of the above files.  If
+  "ignition" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m

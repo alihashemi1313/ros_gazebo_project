@@ -1,0 +1,639 @@
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<robot name="fum6r_new_corsys">
+
+  <material name="Orange">
+    <color rgba="1.0 0.53 0.0 1.0"/>
+    <specular>1.0 1.0 1.0 1.0</specular>
+  </material>
+
+  <material name="Black">
+    <color rgba="0.18 0.18 0.18 1.0"/>
+    <specular>1.0 1.0 1.0 1.0</specular>
+  </material>
+
+  <link name= "world" />
+
+  <joint name= "worldJ0" type="fixed">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <parent
+      link="world" />
+    <child
+      link="6RL0" />
+  </joint>
+
+  <link name="6RL0">
+    <inertial>
+      <origin xyz="0.0028 0.0 0.0588" rpy="0 0 0" />
+      <mass value="31.781" />
+      <inertia
+        ixx="0.37456"
+        ixy="0.0"
+        ixz="-0.0014"
+        iyy="0.3642"
+        iyz="0.0"
+        izz="0.6497" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/6RL0.stl" />
+      </geometry>
+      <material name="Black"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/6RL0.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="6RL1">
+    <inertial>
+      <origin xyz="-0.0164 -0.0196 -0.1313" rpy="0 0 0" />
+      <mass value="29.9228" />
+      <inertia
+        ixx="0.5574"
+        ixy="-0.0087"
+        ixz="-0.0176"
+        iyy="0.6014"
+        iyz="-0.0759"
+        izz="0.3616" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/6RL1.stl" />
+      </geometry>
+      <material name="Black"/>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/6RL1.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="6RJ1" type="revolute">
+    <origin xyz="0 0 0.3895" rpy="0.00000000 0.00000000 0.00000000" />
+    <parent link="6RL0" />
+    <child link="6RL1" />
+    <axis xyz="0 0 1" />
+    <limit
+      lower="-3.142"
+      upper="3.142"
+      effort="500.0"
+      velocity="10.0" />
+  </joint>
+  <transmission name="6r_joint1_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="6RJ1">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="6r_joint1_actuator">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <link name="6RL2">
+    <inertial>
+      <origin xyz="0.0 0.0823 0.1827" rpy="0 0 0" />
+      <mass value="16.8897" />
+      <inertia
+        ixx="0.067"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="1.000"
+        iyz="0.000"
+        izz="1.034" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/6RL2.stl" />
+      </geometry>
+      <material name="Orange"/>
+    </visual>
+    <ambient>0.8 0.8 0.8 1</ambient>
+    <diffuse>0.8 0.8 0.8 1</diffuse>
+    <specular>0.8 0.8 0.8 1</specular>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/6RL2.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="6RJ2" type="revolute">
+    <origin xyz="0 0 0" rpy="0.00000000 0.0 0.00000000" />
+    <parent link="6RL1" />
+    <child link="6RL2" />
+    <axis xyz="0 1 0" />
+    <limit
+      lower="-3.142"
+      upper="3.142"
+      effort="500.0"
+      velocity="10.0" />
+    <dynamics damping="0.1" friction="0.1"/>
+  </joint>
+  <transmission name="6r_joint2_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="6RJ2">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="6r_joint2_actuator">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <link name="6RL3">
+    <inertial>
+      <origin xyz="0.0017 -0.0031 0.1282" rpy="0 0 0" />
+      <mass value="24.1602" />
+      <inertia
+        ixx="0.618"
+        ixy="-0.0053"
+        ixz="-0.019"
+        iyy="0.331"
+        iyz="-0.005"
+        izz="0.791" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/6RL3.stl" />
+      </geometry>
+      <material name="Orange"/>
+    </visual>
+    <ambient>0.8 0.8 0.8 1</ambient>
+    <diffuse>0.8 0.8 0.8 1</diffuse>
+    <specular>0.8 0.8 0.8 1</specular>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/6RL3.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="6RJ3" type="revolute">
+    <origin xyz="0 0 0.6" rpy="0.00000000 0.0 0.00000000" />
+    <parent link="6RL2" />
+    <child link="6RL3" />
+    <axis xyz="0 1 0" />
+    <limit
+      lower="-3.142"
+      upper="3.142"
+      effort="500.0"
+      velocity="10.0" />
+    <dynamics damping="0.1" friction="0.1"/>
+  </joint>
+  <transmission name="6r_joint3_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="6RJ3">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="6r_joint3_actuator">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <link name="6RL4">
+    <inertial>
+      <origin xyz="-0.1232 -0.0146 0.0004" rpy="0.0 0.0 0.0" />
+      <mass value="4.7423" />
+      <inertia
+        ixx="0.040"
+        ixy="0.000"
+        ixz="0.000"
+        iyy="0.032"
+        iyz="0.004"
+        izz="0.018" />
+    </inertial>
+    <visual>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0 " />
+      <geometry>
+        <mesh
+          filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/6RL4.stl" />
+      </geometry>
+      <material name="Orange"/>
+    </visual>
+    <ambient>0.8 0.8 0.8 1</ambient>
+    <diffuse>0.8 0.8 0.8 1</diffuse>
+    <specular>0.8 0.8 0.8 1</specular>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/6RL4.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="6RJ4" type="revolute">
+    <origin xyz="0.6855 0 0.2" rpy="0.00000000 0.00000000 0.00000000" />
+    <parent link="6RL3" />
+    <child link="6RL4" />
+    <axis xyz="1 0 0" />
+    <limit
+      lower="-3.142"
+      upper="3.142"
+      effort="500.0"
+      velocity="10.0" />
+    <dynamics damping="0.1" friction="0.1"/>
+  </joint>
+  <transmission name="6r_joint4_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="6RJ4">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="6r_joint4_actuator">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <link name="6RL5">
+    <inertial>
+      <origin xyz="0.0205 -0.0131 -0.0026" rpy="0.0 0.0 0.0" />
+      <mass value="2.615" />
+      <inertia
+        ixx="0.007"
+        ixy="0.0002"
+        ixz="0.0001"
+        iyy="0.006"
+        iyz="0.0001"
+        izz="0.008" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/6RL5.stl" />
+      </geometry>
+      <material name="Black"/>
+    </visual>
+    <ambient>0.0 0.0 0.0 0.8</ambient>
+    <diffuse>0.0 0.0 0.0 0.8</diffuse>
+    <specular>0.8 0.8 0.8 1</specular>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/6RL5.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="6RJ5" type="revolute">
+    <origin xyz="0.0 0.0 0.0" rpy="0.00000000 0.00000000 0.00000000" />
+    <parent link="6RL4" />
+    <child link="6RL5" />
+    <axis xyz="0 1 0" />
+    <limit
+      lower="-3.142"
+      upper="3.142"
+      effort="500.0"
+      velocity="10.0" />
+    <dynamics damping="0.1" friction="0.1"/>
+  </joint>
+  <transmission name="6r_joint5_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="6RJ5">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="6r_joint5_actuator">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <link name="6RL6">
+    <inertial>
+      <origin xyz="0.1084 0.0 0.0" rpy="0 0 0" />
+      <mass value="0.955" />
+      <inertia
+        ixx="0.0011"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.0008"
+        iyz="0.0"
+        izz="0.0008" />
+    </inertial>
+    <visual>
+      <originv xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/6RL6.stl" />
+      </geometry>
+      <material name="Black"/>
+    </visual>
+    <ambient>0.0 0.0 0.0 0.8</ambient>
+    <diffuse>0.0 0.0 0.0 0.8</diffuse>
+    <specular>0.8 0.8 0.8 1</specular>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/6RL6.stl" />
+      </geometry>
+      <surface>
+        <friction>
+          <ode>
+            <mu>0.3</mu>
+            <mu2>0.3</mu2>
+            <fdir1>0 0 0</fdir1>
+            <slip1>0.0</slip1>
+            <slip2>0.0</slip2>
+          </ode>
+        </friction>
+        <bounce>
+          <restitution_coefficient>0.8</restitution_coefficient>
+          <threshold>1e4</threshold>
+        </bounce>
+        <contact>
+          <collide_bitmask>1</collide_bitmask>
+          <ode>
+            <soft_cfm>0.0</soft_cfm>
+            <soft_erp>0.2</soft_erp>
+            <kp>1e9</kp>
+            <kd>1</kd>
+            <max_vel>10.0</max_vel>
+            <min_depth>1e5</min_depth>
+          </ode>
+        </contact>
+      </surface>
+    </collision>
+  </link>
+  <joint name="6RJ6" type="revolute">
+    <origin xyz="0.0 0.0 0.0" rpy="0.00000000 0.00000000 0.00000000" />
+    <parent link="6RL5" />
+    <child link="6RL6" />
+    <axis xyz="1 0 0" />
+    <limit
+      lower="-3.142"
+      upper="3.142"
+      effort="500.0"
+      velocity="10.0" />
+    <dynamics damping="0.1" friction="0.1"/>
+  </joint>
+  <transmission name="6r_joint6_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="6RJ6">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="6r_joint6_actuator">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  
+    <link name="plate">
+    <inertial>
+        <origin xyz="0 -.01 0.17275327" rpy="0 0 0" />
+        <mass value="0.085" />
+        <inertia ixx="0.002858" ixy="0" ixz="0" iyy="0.002987" iyz="0" izz="0.0001420" /> <!-- ${0.08333333333*plate_mass*plate_width}-->
+    </inertial>
+    <visual>
+        <origin xyz="0.075 -0.012 0.06" rpy="0 3.17 0" />
+        <geometry>
+          <mesh filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/paddle.stl" scale="0.001 0.001 0.001" /> <!-- plate is 20x20x1cm if scale is 0.01 -->
+        </geometry>
+    </visual>
+    <collision>
+        <origin xyz="0.075 -0.012 0.06" rpy="0 3.17 0" />
+        <geometry>
+          <mesh filename="file:///home/aliha1313/FUM6R-WS/src/ros2_control_bringup/meshes/paddle.stl" scale="0.001 0.001 0.001" /> <!-- plate is 20x20x1 m -->
+        </geometry>
+        <surface>
+          <bounce restitution_coefficient="0.8" threshold="0.01"/>
+        </surface>
+    </collision>
+  </link>
+
+  <gazebo reference="plate">
+    <mu1 value="100.0" />
+    <mu2 value="0.1" />
+    <maxVel value="10.0"/>
+    <kp value="1000.0" />
+    <kd value="1.0" />
+    <fdir1 value="1 0 0" />
+    <material>Gazebo/Grey</material>
+    <turnGravityOff>false</turnGravityOff>
+  </gazebo>
+
+  <joint name="EEJ" type="fixed">
+    <parent link="6RL6" />
+    <child link = "plate" />
+    <origin xyz="0.308 0 0" rpy="1.585 -3.17 1.585" />
+  </joint>
+
+  <gazebo reference="6RL0">
+    <material>Gazebo/Orange</material>
+  </gazebo>
+
+  <gazebo reference="6RL1">
+    <material>
+      <ambient>0.0 0.0 0.0 0.8</ambient>
+      <diffuse>0.0 0.0 0.0 0.8</diffuse>
+      <specular>0.8 0.8 0.8 1</specular>
+    </material>
+  </gazebo>
+
+  <gazebo reference="6RL2">
+    <ambient>0.8 0.8 0.8 1</ambient>
+    <diffuse>0.8 0.8 0.8 1</diffuse>
+    <specular>0.8 0.8 0.8 1</specular>
+  </gazebo>
+
+  <gazebo reference="6RL3">
+    <ambient>0.8 0.8 0.8 1</ambient>
+    <diffuse>0.8 0.8 0.8 1</diffuse>
+    <specular>0.8 0.8 0.8 1</specular>
+  </gazebo>
+
+  <gazebo reference="6RL4">
+    <ambient>0.8 0.8 0.8 1</ambient>
+    <diffuse>0.8 0.8 0.8 1</diffuse>
+    <specular>0.8 0.8 0.8 1</specular>
+  </gazebo>
+
+  <gazebo reference="6RL5">
+    <ambient>0.0 0.0 0.0 0.8</ambient>
+    <diffuse>0.0 0.0 0.0 0.8</diffuse>
+    <specular>0.8 0.8 0.8 1</specular>
+  </gazebo>
+
+  <gazebo reference="6RL6">
+    <ambient>0.0 0.0 0.0 0.8</ambient>
+    <diffuse>0.0 0.0 0.0 0.8</diffuse>
+    <specular>0.8 0.8 0.8 1</specular>
+  </gazebo>
+
+  <gazebo reference="plate">
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <!-- gazebo>
+    <world name="default">
+      <light name='pointlight' type='point'>
+        <pose>0.355414 0.448622 2 0 -0 0</pose>
+        <cast_shadows>true</cast_shadows>
+        <intensity>1</intensity>
+        <direction>0 0 0</direction>
+        <diffuse>0.5 0.5 0.5 1</diffuse>
+        <specular>0.5 0.5 0.5 1</specular>
+        <attenuation>
+          <range>4</range>
+          <linear>0.5</linear>
+          <constant>0.20000000000000001</constant>
+          <quadratic>0.01</quadratic>
+        </attenuation>
+        <spot>
+          <inner_angle>0</inner_angle>
+          <outer_angle>0</outer_angle>
+          <falloff>0</falloff>
+        </spot>
+      </light>
+    </world>
+  </gazebo> -->
+  <!-- <gazebo>
+    <plugin name='p3d_plugin' filename='libgazebo_ros_p3d.so'>
+        <body_name>6RL6</body_name>
+        <frame_name>6RL0</frame_name>
+        <topicName>odom</topicName>
+        <update_rate>1000.0</update_rate>
+    </plugin>
+  </gazebo> -->
+
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+    <joint name="6RJ1">
+      <param name="initial_position">0.000</param>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="6RJ2">
+      <param name="initial_position">0.000</param>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="6RJ3">
+      <param name="initial_position">0.000</param>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="6RJ4">
+      <param name="initial_position">0.000</param>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="6RJ5">
+      <param name="initial_position">0.000</param>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="6RJ6">
+      <param name="initial_position">0.000</param>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+  <!-- <ros2_control name="Ignition" type="system">
+    <hardware>
+      <plugin>ign_ros2_control/IgnitionSystem</plugin>
+    </hardware>
+    <joint name="6RJ1">
+      <param name="initial_position">0.000</param>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="6RJ2">
+      <param name="initial_position">0.000</param>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="6RJ3">
+      <param name="initial_position">0.000</param>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="6RJ4">
+      <param name="initial_position">0.000</param>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="6RJ5">
+      <param name="initial_position">0.000</param>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="6RJ6">
+      <param name="initial_position">0.000</param>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control> -->
+<!-- 
+  <gazebo>
+    <plugin name='gazebo_ROS_6R_torque' 
+      filename='/home/aliha1313/GazeboRos6RPlugin/SO_Files/libgazebo_ros_6r.so'>
+    </plugin>
+  </gazebo> -->
+  
+  <!-- <gazebo>
+    <plugin filename="ignition-gazebo-joint-state-publisher-system" name="ignition::gazebo::systems::JointStatePublisher"/>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="libign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+      <parameters>$(find moveit_6r)/config/ros2_controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+  <plugin
+    filename="ignition-gazebo-user-commands-system"
+    name="ignition::gazebo::systems::UserCommands">
+  </plugin> -->
+
+  <!-- <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <robotNamespace>/</robotNamespace>
+      <controlPeriod>0.01</controlPeriod>
+      <robotSimType>gazebo_ros_control/DefaultRobotHWSim</DefaultRobotHWSim>
+    </plugin>
+  </gazebo> -->
+  <gazebo>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+      <parameters>/home/aliha1313/FUM6R-WS/src/moveit_fum6r/config/ros2_controllers.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+</robot>

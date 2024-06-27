@@ -1,0 +1,22 @@
+{
+    "ros.distro": "foxy",
+    "python.autoComplete.extraPaths": [
+        "/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.8/site-packages",
+        "/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp/lib/python3.8/site-packages",
+        "/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages",
+        "/home/aliha1313/FUM6R-First-Steps-main/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages",
+        "/home/aliha1313/FUM6R-First-Steps-main/GazeboRos6RPlugin/torque_message/install/torque_message/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg/lib/python3.8/site-packages",
+        "/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp/lib/python3.8/site-packages",
+        "/home/aliha1313/FUM6R-WS/src/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages",
+        "/home/aliha1313/FUM6R-First-Steps-main/pidcontrollerpkg/install/pidcontrollerpkg/lib/python3.8/site-packages",
+        "/home/aliha1313/FUM6R-First-Steps-main/GazeboRos6RPlugin/torque_message/install/torque_message/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}

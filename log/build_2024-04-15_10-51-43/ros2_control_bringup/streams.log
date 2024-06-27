@@ -1,0 +1,23 @@
+[2.573s] Invoking command in '/home/aliha1313/FUM6R-WS/src/ros2_control_bringup': PYTHONPATH=/home/aliha1313/FUM6R-WS/build/ros2_control_bringup/prefix_override:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_control_bringup build --build-base /home/aliha1313/FUM6R-WS/build/ros2_control_bringup/build install --record /home/aliha1313/FUM6R-WS/build/ros2_control_bringup/install.log --single-version-externally-managed install_data
+[3.225s] running egg_info
+[3.228s] writing ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/PKG-INFO
+[3.228s] writing dependency_links to ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/dependency_links.txt
+[3.229s] writing entry points to ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/entry_points.txt
+[3.230s] writing requirements to ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/requires.txt
+[3.230s] writing top-level names to ../../build/ros2_control_bringup/ros2_control_bringup.egg-info/top_level.txt
+[3.237s] reading manifest file '../../build/ros2_control_bringup/ros2_control_bringup.egg-info/SOURCES.txt'
+[3.242s] writing manifest file '../../build/ros2_control_bringup/ros2_control_bringup.egg-info/SOURCES.txt'
+[3.242s] running build
+[3.242s] running build_py
+[3.244s] running install
+[3.245s] running install_lib
+[3.250s] running install_data
+[3.252s] running install_egg_info
+[3.258s] removing '/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/python3.10/site-packages/ros2_control_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[3.259s] Copying ../../build/ros2_control_bringup/ros2_control_bringup.egg-info to /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/python3.10/site-packages/ros2_control_bringup-0.0.0-py3.10.egg-info
+[3.262s] running install_scripts
+[3.347s] Installing CtrlInvTest script to /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/ros2_control_bringup
+[3.348s] Installing CtrlTest script to /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/ros2_control_bringup
+[3.348s] Installing P3DTest script to /home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/ros2_control_bringup
+[3.350s] writing list of installed files to '/home/aliha1313/FUM6R-WS/build/ros2_control_bringup/install.log'
+[3.425s] Invoked command in '/home/aliha1313/FUM6R-WS/src/ros2_control_bringup' returned '0': PYTHONPATH=/home/aliha1313/FUM6R-WS/build/ros2_control_bringup/prefix_override:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_control_bringup build --build-base /home/aliha1313/FUM6R-WS/build/ros2_control_bringup/build install --record /home/aliha1313/FUM6R-WS/build/ros2_control_bringup/install.log --single-version-externally-managed install_data

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="fum6r_new_corsys">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import fum6r_new_corsys urdf file -->
+    <xacro:include filename="$(find ros2_control_bringup)/urdf/fum6r.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="fum6r_new_corsys.ros2_control.xacro" />
+
+
+    <xacro:fum6r_new_corsys_ros2_control name="GazeboSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

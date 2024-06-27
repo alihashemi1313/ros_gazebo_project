@@ -1,0 +1,9 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ign_gazebo_manager.dir/src/ign_gazebo_manager.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_ros_ign_gazebo_manager
+running egg_info
+writing ros_ign_gazebo_manager.egg-info/PKG-INFO
+writing dependency_links to ros_ign_gazebo_manager.egg-info/dependency_links.txt
+writing top-level names to ros_ign_gazebo_manager.egg-info/top_level.txt
+reading manifest file 'ros_ign_gazebo_manager.egg-info/SOURCES.txt'
+writing manifest file 'ros_ign_gazebo_manager.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_ros_ign_gazebo_manager_egg

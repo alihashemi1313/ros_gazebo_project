@@ -1,0 +1,52 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+      state_publish_rate: 1000.0
+      action_monitor_rate: 1000.0
+    effort_controllers:
+      type: effort_controllers/JointGroupEffortController
+
+effort_controllers: 
+  ros__parameters:
+    joints:
+      - 6RJ1
+      - 6RJ2
+      - 6RJ3
+      - 6RJ4
+      - 6RJ5
+      - 6RJ6
+
+    command_interfaces:
+      - effort
+
+    state_interfaces:
+      - position
+      - velocity
+    
+    gains:
+      6RJ1:
+        p: 18892
+        i: 10
+        d: 18
+      6RJ2:
+        p: 2176000
+        i: 2154
+        d: 53.21
+      6RJ3:
+        p: 115330
+        i: 2000
+        d: 100
+      6RJ4:
+        p: 1593
+        i: 22.524
+        d: 4.06
+      6RJ5:
+        p: 500
+        i: 70
+        d: 0.5
+      6RJ6:
+        p: 22
+        i: 1
+        d: 1

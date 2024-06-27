@@ -1,0 +1,66 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - 6RJ1
+      - 6RJ2
+      - 6RJ3
+      - 6RJ4
+      - 6RJ5
+      - 6RJ6
+
+    command_interfaces:
+      - effort
+
+    state_interfaces:
+      - position
+    
+    pid:
+      6RJ1:
+        p: 188920
+        i: 10
+        d: 18
+      
+      6RJ2:
+        p: 217600
+        i: 10
+        d: 100
+
+      6RJ3:
+        p: 115330
+        i: 10
+        d: 100
+      
+      6RJ4:
+        p: 1593
+        i: 10
+        d: 100
+
+      6RJ5:
+        p: 500
+        i: 1
+        d: 10
+
+      6RJ6:
+        p: 22
+        i: 1
+        d: 10
+
+    state_publish_rate: 1000.0
+    action_monitor_rate: 1000.0
+
+    allow_partial_joints_goal: false
+    open_loop_control: true
+    # constraints:
+    #   stopped_velocity_tolerance: 0.01
+    #   goal_time: 0.0
+      # joint1:
+      #   trajectory: 0.05
+      #   goal: 0.03

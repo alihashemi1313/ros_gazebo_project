@@ -1,0 +1,10 @@
+[0.031s] Invoking command in '/home/aliha1313/FUM6R-WS/build/motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/home/aliha1313/FUM6R-WS/install/Ros2ControlBringingUp:/opt/ros/humble /usr/bin/cmake --build /home/aliha1313/FUM6R-WS/build/motion_planning -- -j12 -l12
+[0.385s] [ 33%] [32mBuilding CXX object CMakeFiles/position_subscriber.dir/src/position_subscriber.cpp.o[0m
+[0.386s] [ 50%] [32mBuilding CXX object CMakeFiles/position_target.dir/src/position_target.cpp.o[0m
+[0.386s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoints_target.dir/src/waypoints_target.cpp.o[0m
+[9.702s] [ 66%] [32m[1mLinking CXX executable waypoints_target[0m
+[9.709s] [ 83%] [32m[1mLinking CXX executable position_target[0m
+[10.097s] [ 83%] Built target position_target
+[10.101s] [ 83%] Built target waypoints_target
+[16.046s] [100%] [32m[1mLinking CXX executable position_subscriber[0m
+[16.785s] [100%] Built target position_subscriber

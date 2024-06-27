@@ -1,0 +1,7 @@
+setup.py
+ros_ign_gazebo_manager/__init__.py
+ros_ign_gazebo_manager/ign_gazebo_interface.py
+ros_ign_gazebo_manager.egg-info/PKG-INFO
+ros_ign_gazebo_manager.egg-info/SOURCES.txt
+ros_ign_gazebo_manager.egg-info/dependency_links.txt
+ros_ign_gazebo_manager.egg-info/top_level.txt

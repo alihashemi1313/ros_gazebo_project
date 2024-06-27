@@ -1,0 +1,5 @@
+source;share/ros_ign_gazebo_manager/local_setup.bash
+source;share/ros_ign_gazebo_manager/local_setup.dsv
+source;share/ros_ign_gazebo_manager/local_setup.ps1
+source;share/ros_ign_gazebo_manager/local_setup.sh
+source;share/ros_ign_gazebo_manager/local_setup.zsh

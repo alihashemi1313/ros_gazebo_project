@@ -1,0 +1,5 @@
+  File "/home/aliha1313/FUM6R-WS/install/ros2_control_bringup/lib/python3.10/site-packages/ros2_control_bringup/ball_spawn.py", line 7
+    ros2 run ros_gz_bridge parameter_bridge /world/default/create@ros_gz_interfaces/srv/SpawnEntity@ignition.msgs.EntityFactory@ignition.msg.Boolean
+         ^^^
+SyntaxError: invalid syntax
+

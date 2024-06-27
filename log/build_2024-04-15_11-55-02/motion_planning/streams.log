@@ -1,0 +1,30 @@
+[0.418s] Invoking command in '/home/aliha1313/FUM6R-WS/build/motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/opt/ros/humble /usr/bin/cmake --build /home/aliha1313/FUM6R-WS/build/motion_planning -- -j12 -l12
+[0.476s] [35m[1mConsolidate compiler generated dependencies of target waypoints_target[0m
+[0.496s] [ 66%] Built target position_subscriber
+[0.496s] [ 66%] Built target position_target
+[0.506s] [ 83%] [32mBuilding CXX object CMakeFiles/waypoints_target.dir/src/waypoints_target.cpp.o[0m
+[11.056s] [100%] [32m[1mLinking CXX executable waypoints_target[0m
+[11.460s] [100%] Built target waypoints_target
+[11.475s] Invoked command in '/home/aliha1313/FUM6R-WS/build/motion_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/opt/ros/humble /usr/bin/cmake --build /home/aliha1313/FUM6R-WS/build/motion_planning -- -j12 -l12
+[11.508s] Invoking command in '/home/aliha1313/FUM6R-WS/build/motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/opt/ros/humble /usr/bin/cmake --install /home/aliha1313/FUM6R-WS/build/motion_planning
+[11.516s] -- Install configuration: ""
+[11.516s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/lib/motion_planning/position_target
+[11.516s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/lib/motion_planning/position_subscriber
+[11.516s] -- Installing: /home/aliha1313/FUM6R-WS/install/motion_planning/lib/motion_planning/waypoints_target
+[11.517s] -- Set runtime path of "/home/aliha1313/FUM6R-WS/install/motion_planning/lib/motion_planning/waypoints_target" to ""
+[11.518s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/ament_index/resource_index/package_run_dependencies/motion_planning
+[11.518s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/ament_index/resource_index/parent_prefix_path/motion_planning
+[11.518s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/environment/ament_prefix_path.sh
+[11.518s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/environment/ament_prefix_path.dsv
+[11.518s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/environment/path.sh
+[11.518s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/environment/path.dsv
+[11.518s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/local_setup.bash
+[11.519s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/local_setup.sh
+[11.519s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/local_setup.zsh
+[11.519s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/local_setup.dsv
+[11.519s] -- Installing: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/package.dsv
+[11.519s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/ament_index/resource_index/packages/motion_planning
+[11.519s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/cmake/motion_planningConfig.cmake
+[11.519s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/cmake/motion_planningConfig-version.cmake
+[11.520s] -- Up-to-date: /home/aliha1313/FUM6R-WS/install/motion_planning/share/motion_planning/package.xml
+[11.521s] Invoked command in '/home/aliha1313/FUM6R-WS/build/motion_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aliha1313/FUM6R-WS/install/ros2_control_bringup:/home/aliha1313/FUM6R-WS/install/ros2_control_bringing_up:/home/aliha1313/FUM6R-WS/install/pidcontrollerpkg:/opt/ros/humble /usr/bin/cmake --install /home/aliha1313/FUM6R-WS/build/motion_planning

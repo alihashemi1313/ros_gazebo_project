@@ -1,0 +1,7 @@
+[01m[K/home/aliha1313/FUM6R-WS/src/motion_planning/src/position_target.cpp:[m[K In lambda function:
+[01m[K/home/aliha1313/FUM6R-WS/src/motion_planning/src/position_target.cpp:26:21:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   26 |     std::cin >> x,y,[01;35m[Kz[m[K;
+      |                     [01;35m[K^[m[K
+[01m[K/home/aliha1313/FUM6R-WS/src/motion_planning/src/position_target.cpp:26:22:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   26 |     std::cin >> x,y,z[01;35m[K;[m[K
+      |                      [01;35m[K^[m[K

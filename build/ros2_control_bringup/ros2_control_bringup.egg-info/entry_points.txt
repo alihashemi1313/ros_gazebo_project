@@ -1,0 +1,5 @@
+[console_scripts]
+CtrlInvTest = ros2_control_bringup.controller_Inv_test:main
+CtrlTest = ros2_control_bringup.controller_test:main
+ball = ros2_control_bringup.ball_spawn:main
+
